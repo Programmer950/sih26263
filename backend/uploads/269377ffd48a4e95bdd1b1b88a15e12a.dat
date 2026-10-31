@@ -1,0 +1,6 @@
+student_id,full_name,apaar_id,student_status
+S_CONT,Cont Student 6997,710020006997,ACTIVE
+S_WITH,With Student 6997,720020006997,ACTIVE
+S_DIS,Dis Student 6997,730020006997,ACTIVE
+S_TR_OUT,Trans Out 6997,740020006997,ACTIVE
+S_AMB,Amb Student 6997,,ACTIVE

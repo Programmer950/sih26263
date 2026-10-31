@@ -1,0 +1,4 @@
+student_id,full_name,apaar_id,student_status
+S01-3775ef,Valid APAAR,123456789012,ACTIVE
+S02-3775ef,Short APAAR,12345,ACTIVE
+S03-3775ef,Alpha APAAR,12345678901A,ACTIVE

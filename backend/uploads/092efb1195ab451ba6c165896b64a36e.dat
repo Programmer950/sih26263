@@ -1,0 +1,6 @@
+student_id,full_name,apaar_id,student_status
+S_CONT,Cont Student 1643,710020001643,ACTIVE
+S_WITH,With Student 1643,720020001643,WITHDRAWN
+S_AMB,Amb Student 1643,,ACTIVE
+S_ADD,Added Student 1643,750020001643,ACTIVE
+S_APP,Unexpected App 1643,760020001643,ACTIVE

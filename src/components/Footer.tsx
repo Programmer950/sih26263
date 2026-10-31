@@ -27,25 +27,17 @@ export const Footer: React.FC = () => {
           {/* Brand & Tagline */}
           <div style={{ maxWidth: '28rem' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.85rem' }}>
-              <div
+              <img
+                src="/emblem.png"
+                alt="State Emblem of India"
                 style={{
-                  width: '28px',
-                  height: '28px',
-                  borderRadius: '6px',
-                  backgroundColor: '#152243',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  border: '1px solid #273760',
+                  height: '32px',
+                  width: 'auto',
+                  objectFit: 'contain',
+                  filter: 'brightness(0) invert(1)',
+                  opacity: 0.9,
                 }}
-              >
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-                  <circle cx="5" cy="7" r="2.5" fill="#38bdf8" />
-                  <circle cx="19" cy="17" r="2.5" fill="#0d9488" />
-                  <path d="M5 7h6a4 4 0 0 1 4 4v2a4 4 0 0 1 4 4" stroke="#0d9488" strokeWidth="2" strokeLinecap="round" />
-                  <circle cx="12" cy="12" r="1.75" fill="#d97706" />
-                </svg>
-              </div>
+              />
               <span style={{ fontSize: '1.15rem', fontWeight: 800, letterSpacing: '-0.02em', color: '#ffffff' }}>
                 APAAR SETU
               </span>
@@ -112,6 +104,21 @@ export const Footer: React.FC = () => {
               onMouseLeave={(e) => (e.currentTarget.style.color = '#94a3b8')}
             >
               Project Status
+            </a>
+            <a
+              href="/login"
+              style={{
+                color: '#E58A24',
+                textDecoration: 'none',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '0.25rem',
+                fontWeight: 700,
+                marginTop: '0.25rem',
+              }}
+            >
+              <span>Launch Regulatory Portal</span>
+              <ArrowUpRight size={14} />
             </a>
           </div>
         </div>

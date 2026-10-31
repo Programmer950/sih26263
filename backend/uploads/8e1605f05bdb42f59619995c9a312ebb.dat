@@ -1,0 +1,4 @@
+student_id,full_name,apaar_id,student_status
+NAME-MERGE-A-e7ef9a,Rajesh Kumar,112233445566,ACTIVE
+NAME-MERGE-B-e7ef9a,Rajesh Kumar,998877665544,ACTIVE
+NAME-MERGE-C-e7ef9a,Rajesh Kumar,,ACTIVE

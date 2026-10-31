@@ -1,0 +1,6 @@
+student_id,full_name,apaar_id,student_status
+S_CONT,Student Continuing,100020003001,ACTIVE
+S_WITH,Student Withdrawn,100020003002,WITHDRAWN
+S_AMB,Student Ambiguous,,ACTIVE
+S_ADD,Student Added Cohort,100020003005,ACTIVE
+S_APP,Student Unexpected Appearance,100020003006,ACTIVE

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 
 export const Navbar: React.FC = () => {
@@ -48,27 +49,16 @@ export const Navbar: React.FC = () => {
           }}
           aria-label="APAAR SETU Home"
         >
-          {/* Custom geometric symbol: connected records bridge */}
-          <div
+          {/* State Emblem of India */}
+          <img
+            src="/emblem.png"
+            alt="State Emblem of India"
             style={{
-              width: '32px',
-              height: '32px',
-              borderRadius: '6px',
-              backgroundColor: '#0b132b',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              boxShadow: '0 1px 3px rgba(0,0,0,0.12)',
+              height: '36px',
+              width: 'auto',
+              objectFit: 'contain',
             }}
-          >
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-              <circle cx="5" cy="7" r="2.5" fill="#38bdf8" />
-              <circle cx="19" cy="17" r="2.5" fill="#0d9488" />
-              <path d="M5 7h6a4 4 0 0 1 4 4v2a4 4 0 0 1 4 4" stroke="#0d9488" strokeWidth="2" strokeLinecap="round" />
-              <path d="M19 7h-4a4 4 0 0 0-4 4v2" stroke="#38bdf8" strokeWidth="1.75" strokeDasharray="2 2" strokeLinecap="round" />
-              <circle cx="12" cy="12" r="1.75" fill="#d97706" />
-            </svg>
-          </div>
+          />
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
               <span style={{ fontWeight: 700, fontSize: '1.05rem', letterSpacing: '-0.02em', color: 'var(--ink-primary)' }}>
@@ -106,8 +96,8 @@ export const Navbar: React.FC = () => {
           ))}
         </nav>
 
-        {/* Status Indicator */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+        {/* Status Indicator & Action CTA */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
           <div
             className="badge badge-pending"
             style={{
@@ -125,11 +115,30 @@ export const Navbar: React.FC = () => {
                 borderRadius: '50%',
                 backgroundColor: 'var(--state-pending)',
                 display: 'inline-block',
-                boxShadow: '0 0 0 2px rgba(217, 119, 6, 0.2)',
+                boxShadow: '0 0 0 2px rgba(229, 138, 36, 0.2)',
               }}
             />
-            <span>PROTOTYPE IN DEVELOPMENT</span>
+            <span>SIH26263 SPECIFICATION</span>
           </div>
+
+          <Link
+            to="/login"
+            style={{
+              background: '#12345A',
+              color: '#FFFFFF',
+              border: '1px solid #0B1F36',
+              borderRadius: '3px',
+              padding: '6px 14px',
+              fontSize: '12px',
+              fontWeight: 700,
+              textDecoration: 'none',
+              letterSpacing: '0.2px',
+              display: 'inline-flex',
+              alignItems: 'center',
+            }}
+          >
+            Portal Login
+          </Link>
 
           {/* Mobile hamburger button */}
           <button

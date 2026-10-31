@@ -1,0 +1,5 @@
+student_id,full_name,apaar_id,student_status
+S_EQUAL,=cmd|' /C calc'!A0,881122332a0e,ACTIVE
+S_PLUS,+SUM(A1:A10),881122342a0e,ACTIVE
+S_MINUS,-DDE('cmd';'calc'),881122352a0e,ACTIVE
+S_AT,@HYPERLINK('http://evil.com'),881122362a0e,ACTIVE

@@ -1,0 +1,4 @@
+student_id,full_name,apaar_id,student_status
+S1,Alice Smith,111122223333,ACTIVE
+S2,Bob Jones,444455556666,ACTIVE
+S3,Charlie Brown,777788889999,ACTIVE

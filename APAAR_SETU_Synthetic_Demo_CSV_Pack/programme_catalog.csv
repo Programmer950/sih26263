@@ -1,0 +1,8 @@
+﻿institution_code,institution_name,programme_code,programme_name,programme_level,approved_intake_demo_only
+APEX,Apex Institute of Technology,APEX-CSE,B.Tech Computer Science and Engineering,UG,120
+APEX,Apex Institute of Technology,APEX-ECE,B.Tech Electronics and Communication Engineering,UG,60
+APEX,Apex Institute of Technology,APEX-ME,B.Tech Mechanical Engineering,UG,60
+NPOLY,National Polytechnic,NPOLY-DIP-CSE,Diploma in Computer Engineering,DIPLOMA,60
+NPOLY,National Polytechnic,NPOLY-DIP-ME,Diploma in Mechanical Engineering,DIPLOMA,60
+KAV,Kaveri University,KAV-CSE,B.Tech Computer Science and Engineering,UG,90
+KAV,Kaveri University,KAV-MBA,Master of Business Administration,PG,60

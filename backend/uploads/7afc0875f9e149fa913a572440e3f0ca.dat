@@ -1,0 +1,6 @@
+student_id,full_name,apaar_id,student_status
+S_CONT,Student Continuing,100020003001,ACTIVE
+S_WITH,Student Withdrawn,100020003002,ACTIVE
+S_DIS,Student Disappeared,100020003003,ACTIVE
+S_TR_OUT,Student Transferred Out,100020003004,ACTIVE
+S_AMB,Student Ambiguous,,ACTIVE
